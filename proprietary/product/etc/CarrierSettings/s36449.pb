@@ -1,8 +1,7 @@
 
-s36449Ù‰áî"ß
+s36449¨Û”ù"
 maxImageHeightò
-maxImageWidth†&
-"moto_enable_service_dialing_number(
+maxImageWidth†
 recipientLimit%
 sim_country_iso_override_stringbs
 smsToMmsTextThreshold

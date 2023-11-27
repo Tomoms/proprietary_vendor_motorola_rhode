@@ -1,11 +1,10 @@
 
-s330000פה‡”"ל"
+s330000¬ף׃"ִ"
 cdma_3waycall_flash_delay_intָ
 
 httpParamsX-MDN: ##LINE1##
 maxMessageSize€€@
-maxSubjectLengthP&
-"moto_enable_service_dialing_number(
+maxSubjectLengthP
 recipientLimit
 smsToMmsTextThreshold#
 use_otasp_for_provisioning_bool(
