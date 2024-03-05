@@ -247,7 +247,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhode/proprietary/vendor/lib64/libvidhance_stabilizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvidhance_stabilizer.so \
     vendor/motorola/rhode/proprietary/vendor/lib64/nfc_nci_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci_sec.so \
     vendor/motorola/rhode/proprietary/vendor/lib64/vendor.egistec.hardware.fingerprint@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.egistec.hardware.fingerprint@4.0.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/vendor.focaltech.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.focaltech.fingerprint@1.0.so
+    vendor/motorola/rhode/proprietary/vendor/lib64/vendor.focaltech.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.focaltech.fingerprint@1.0.so \
+    vendor/motorola/rhode/proprietary/vendor/usr/idc/uinput-egis.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/uinput-egis.idc \
+    vendor/motorola/rhode/proprietary/vendor/usr/idc/uinput-focal.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/uinput-focal.idc \
+    vendor/motorola/rhode/proprietary/vendor/usr/keylayout/uinput-egis.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-egis.kl \
+    vendor/motorola/rhode/proprietary/vendor/usr/keylayout/uinput-focal.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-focal.kl
 
 PRODUCT_PACKAGES += \
     libthermalclient
