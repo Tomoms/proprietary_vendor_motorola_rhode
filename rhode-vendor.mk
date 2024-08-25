@@ -6,9 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/rhode
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/rhode/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-focalservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-focalservice \
-    vendor/motorola/rhode/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets \
-    vendor/motorola/rhode/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/motorola/rhode/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/motorola/rhode/proprietary/vendor/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/General_cal.acdb \
     vendor/motorola/rhode/proprietary/vendor/etc/acdbdata/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Global_cal.acdb \
@@ -106,14 +103,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhode/proprietary/vendor/firmware/synaptics-visionox-S3910-3907375-0000005-rhode.img:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-visionox-S3910-3907375-0000005-rhode.img \
     vendor/motorola/rhode/proprietary/vendor/firmware/tianma_goodix_cfg_group.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tianma_goodix_cfg_group.bin \
     vendor/motorola/rhode/proprietary/vendor/firmware/tianma_goodix_test_limits_255.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/tianma_goodix_test_limits_255.csv \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_gt24p128e_s5kjn1_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_gt24p128e_s5kjn1_eeprom.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_gt24p64e_ov16a1q_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_gt24p64e_ov16a1q_eeprom.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_rhode_gc02m1_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_rhode_gc02m1_otp.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_s5k4h7_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_s5k4h7_otp.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/com.qti.sensor.mot_gc02m1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_gc02m1.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/com.qti.sensor.mot_ov16a1q.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_ov16a1q.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/com.qti.sensor.mot_s5k4h7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_s5k4h7.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/com.qti.sensor.mot_s5kjn1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_s5kjn1.so \
     vendor/motorola/rhode/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_rhode_gc02m1_sunwin.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_rhode_gc02m1_sunwin.bin \
     vendor/motorola/rhode/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_rhode_ov16a1q_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_rhode_ov16a1q_ofilm.bin \
     vendor/motorola/rhode/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_rhode_s5k4h7_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_rhode_s5k4h7_ofilm.bin \
@@ -123,128 +112,139 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhode/proprietary/vendor/lib64/camera/com.qti.tuned.mot_rhode_ov16a1q.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_rhode_ov16a1q.bin \
     vendor/motorola/rhode/proprietary/vendor/lib64/camera/com.qti.tuned.mot_rhode_s5k4h7.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_rhode_s5k4h7.bin \
     vendor/motorola/rhode/proprietary/vendor/lib64/camera/com.qti.tuned.mot_rhode_s5kjn1.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_rhode_s5kjn1.bin \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.arcsoft.node.dc_capture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.arcsoft.node.dc_capture.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.arcsoft.node.dc_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.arcsoft.node.dc_preview.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.arcsoft.node.mfnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.arcsoft.node.mfnr.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.camx.chiiqutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.camx.chiiqutils.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv2.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv3.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.hvx.addconstant.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.hvx.addconstant.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.hvx.binning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.hvx.binning.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.node.customhwnode.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.customhwnode.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.node.depth.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.depth.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.node.dewarp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.dewarp.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.node.dummyrtb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.dummyrtb.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.node.dummysat.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.dummysat.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.node.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.eisv2.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.node.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.eisv3.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.node.fcv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.fcv.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.node.gpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.gpu.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.node.memcpy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.memcpy.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.node.remosaic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.remosaic.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.node.stich.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.stich.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.node.swaidenoiser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.swaidenoiser.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.node.swcac.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.swcac.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.node.swlsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.swlsc.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.node.swmctf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.swmctf.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.node.swmfnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.swmfnr.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.node.swregistration.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.swregistration.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.stats.aec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.aec.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.stats.aecwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.aecwrapper.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.af.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.stats.afd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.afd.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.stats.afwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.afwrapper.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.stats.asd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.asd.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.stats.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.awb.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.stats.awbwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.awbwrapper.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.stats.haf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.haf.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.stats.hafoverride.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.hafoverride.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.pdlib.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.stats.pdlibsony.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.pdlibsony.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.stats.pdlibwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.pdlibwrapper.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qti.stats.tracker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.tracker.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.aec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.aec.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.af.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.awb.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.pdlib.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.vidhance.node.processing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.vidhance.node.processing.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/camera/components/com.vidhance.stats.aec_dmbr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.vidhance.stats.aec_dmbr.so \
     vendor/motorola/rhode/proprietary/vendor/lib64/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreview.bin \
     vendor/motorola/rhode/proprietary/vendor/lib64/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreviewlite.bin \
     vendor/motorola/rhode/proprietary/vendor/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideo.bin \
     vendor/motorola/rhode/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin \
-    vendor/motorola/rhode/proprietary/vendor/lib64/com.qti.chiusecaseselector.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.chiusecaseselector.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/com.qti.feature2.anchorsync.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.anchorsync.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/com.qti.feature2.demux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.demux.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/com.qti.feature2.frameselect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.frameselect.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/com.qti.feature2.fusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.fusion.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/com.qti.feature2.generic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.generic.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/com.qti.feature2.gs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.gs.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/com.qti.feature2.hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.hdr.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/com.qti.feature2.memcpy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.memcpy.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/com.qti.feature2.mfsr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.mfsr.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/com.qti.feature2.qcfa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.qcfa.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/com.qti.feature2.rawhdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.rawhdr.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/com.qti.feature2.rt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.rt.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/com.qti.feature2.serializer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.serializer.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/com.qti.feature2.stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.stub.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/com.qti.feature2.swmf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.swmf.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.qcom.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qti.chi.override.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/hw/fingerprint.focaltech.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.focaltech.default.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/hw/libfactorylib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libfactorylib.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libRbsFlow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRbsFlow.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libarcsoft_distortion_correction.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_distortion_correction.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libarcsoft_low_light_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_low_light_shot.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libarcsoft_portrait_distortion_correction.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_portrait_distortion_correction.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libbitmlengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbitmlengine.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_nn_stub.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libcamerapostproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamerapostproc.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libcamxexternalformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxexternalformatutils.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libcamxfacialfeatures.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfacialfeatures.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libcamxfdalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdalgo.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libcamxfdengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdengine.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libcamxifestriping.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxifestriping.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libcamximageformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamximageformatutils.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libcamxncs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxncs.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libcamxstatscore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxstatscore.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libcamxswispiqmodule.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxswispiqmodule.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libcamxswprocessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxswprocessalgo.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxtintlessalgo.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libchilog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libchilog.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcom.qti.chinodeutils.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libets_teeclient_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libets_teeclient_v2.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libipebpsstriping.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libipebpsstriping.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libjpege.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjpege.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/liblmutils-ns.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblmutils-ns.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libmctfengine_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmctfengine_stub.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libmmcamera_cac3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_cac3.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libmmcamera_mfnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_mfnr.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libmot_afd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmot_afd.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libmot_lux_standardization.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmot_lux_standardization.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libofflinelog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libofflinelog.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libopencv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libopencv.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libopestriping.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libopestriping.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libremosaic_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaic_wrapper.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswregistrationalgo.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libtfestriping.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtfestriping.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libvidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvidhance.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libvidhance_active_ois.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvidhance_active_ois.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libvidhance_dmbr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvidhance_dmbr.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libvidhance_face_stabilizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvidhance_face_stabilizer.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libvidhance_fbc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvidhance_fbc.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libvidhance_horizon_correction.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvidhance_horizon_correction.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/libvidhance_stabilizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvidhance_stabilizer.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/vendor.egistec.hardware.fingerprint@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.egistec.hardware.fingerprint@4.0.so \
-    vendor/motorola/rhode/proprietary/vendor/lib64/vendor.focaltech.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.focaltech.fingerprint@1.0.so \
     vendor/motorola/rhode/proprietary/vendor/usr/idc/uinput-egis.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/uinput-egis.idc \
     vendor/motorola/rhode/proprietary/vendor/usr/idc/uinput-focal.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/uinput-focal.idc \
     vendor/motorola/rhode/proprietary/vendor/usr/keylayout/uinput-egis.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-egis.kl \
     vendor/motorola/rhode/proprietary/vendor/usr/keylayout/uinput-focal.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-focal.kl
 
 PRODUCT_PACKAGES += \
-    libthermalclient
+    libthermalclient \
+    com.mot.eeprom.mot_gt24p128e_s5kjn1_eeprom \
+    com.mot.eeprom.mot_gt24p64e_ov16a1q_eeprom \
+    com.mot.eeprom.mot_rhode_gc02m1_otp \
+    com.mot.eeprom.mot_s5k4h7_otp \
+    com.qti.sensor.mot_gc02m1 \
+    com.qti.sensor.mot_ov16a1q \
+    com.qti.sensor.mot_s5k4h7 \
+    com.qti.sensor.mot_s5kjn1 \
+    com.arcsoft.node.dc_capture \
+    com.arcsoft.node.dc_preview \
+    com.arcsoft.node.mfnr \
+    com.qti.camx.chiiqutils \
+    com.qti.eisv2 \
+    com.qti.eisv3 \
+    com.qti.hvx.addconstant \
+    com.qti.hvx.binning \
+    com.qti.node.customhwnode \
+    com.qti.node.depth \
+    com.qti.node.dewarp \
+    com.qti.node.dummyrtb \
+    com.qti.node.dummysat \
+    com.qti.node.eisv2 \
+    com.qti.node.eisv3 \
+    com.qti.node.fcv \
+    com.qti.node.gpu \
+    com.qti.node.memcpy \
+    com.qti.node.remosaic \
+    com.qti.node.stich \
+    com.qti.node.swaidenoiser \
+    com.qti.node.swcac \
+    com.qti.node.swlsc \
+    com.qti.node.swmctf \
+    com.qti.node.swmfnr \
+    com.qti.node.swregistration \
+    com.qti.stats.aec \
+    com.qti.stats.aecwrapper \
+    com.qti.stats.af \
+    com.qti.stats.afd \
+    com.qti.stats.afwrapper \
+    com.qti.stats.asd \
+    com.qti.stats.awb \
+    com.qti.stats.awbwrapper \
+    com.qti.stats.haf \
+    com.qti.stats.hafoverride \
+    com.qti.stats.pdlib \
+    com.qti.stats.pdlibsony \
+    com.qti.stats.pdlibwrapper \
+    com.qti.stats.tracker \
+    com.qtistatic.stats.aec \
+    com.qtistatic.stats.af \
+    com.qtistatic.stats.awb \
+    com.qtistatic.stats.pdlib \
+    com.vidhance.node.processing \
+    com.vidhance.stats.aec_dmbr \
+    com.qti.chiusecaseselector \
+    com.qti.feature2.anchorsync \
+    com.qti.feature2.demux \
+    com.qti.feature2.frameselect \
+    com.qti.feature2.fusion \
+    com.qti.feature2.generic \
+    com.qti.feature2.gs \
+    com.qti.feature2.hdr \
+    com.qti.feature2.memcpy \
+    com.qti.feature2.mfsr \
+    com.qti.feature2.qcfa \
+    com.qti.feature2.rawhdr \
+    com.qti.feature2.rt \
+    com.qti.feature2.serializer \
+    com.qti.feature2.stub \
+    com.qti.feature2.swmf \
+    camera.qcom \
+    com.qti.chi.override \
+    fingerprint.focaltech.default \
+    libfactorylib \
+    libRbsFlow \
+    libarcsoft_distortion_correction \
+    libarcsoft_low_light_shot \
+    libarcsoft_portrait_distortion_correction \
+    libbitmlengine \
+    libcamera_nn_stub \
+    libcamerapostproc \
+    libcamxexternalformatutils \
+    libcamxfacialfeatures \
+    libcamxfdalgo \
+    libcamxfdengine \
+    libcamxifestriping \
+    libcamximageformatutils \
+    libcamxncs \
+    libcamxstatscore \
+    libcamxswispiqmodule \
+    libcamxswprocessalgo \
+    libcamxtintlessalgo \
+    libchilog \
+    libcom.qti.chinodeutils \
+    libets_teeclient_v2 \
+    libipebpsstriping \
+    libjpege \
+    liblmutils-ns \
+    libmctfengine_stub \
+    libmmcamera_cac3 \
+    libmmcamera_mfnr \
+    libmot_afd \
+    libmot_lux_standardization \
+    libmpbase \
+    libofflinelog \
+    libopencv \
+    libopestriping \
+    libremosaic_wrapper \
+    libswregistrationalgo \
+    libtfestriping \
+    libvidhance \
+    libvidhance_active_ois \
+    libvidhance_dmbr \
+    libvidhance_face_stabilizer \
+    libvidhance_fbc \
+    libvidhance_horizon_correction \
+    libvidhance_stabilizer \
+    vendor.egistec.hardware.fingerprint@4.0 \
+    vendor.focaltech.fingerprint@1.0 \
+    android.hardware.biometrics.fingerprint@2.1-focalservice \
+    android.hardware.biometrics.fingerprint@2.1-service-ets \
+    thermal-engine
 PRODUCT_COPY_FILES += \
     vendor/motorola/rhode/proprietary/product/etc/CarrierSettings/carrier_list.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/carrier_list.pb \
     vendor/motorola/rhode/proprietary/product/etc/CarrierSettings/others.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/others.pb \
